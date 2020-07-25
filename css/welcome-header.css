@@ -1,0 +1,23 @@
+.welcome-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 62px 0px;
+}
+.welcome-header__title{
+    font-size: 16px;
+}
+.welcome-header__text{
+    font-size: 12px; 
+    opacity: 0.7;
+    font-weight: 400;
+}
+.welcome-header :nth-child(2){
+    margin-top: 22px;
+   
+}
+.welcome-header :nth-child(3){
+    margin-top: 3px;
+   
+}

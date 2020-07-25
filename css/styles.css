@@ -1,32 +1,33 @@
 @import"reset.css";
 @import"status-bar.css";
+@import"welcome-header.css";
+@import"variables.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 body{
     font-family:'Open Sans', sans-serif;
 }
 
-.welcome-header{
+#login-form{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 0 20px;
     
-    margin: 62px 0px;
 }
-.welcome-header__title{
-    font-size: 28px;
+
+#login-form input{
+padding: 15px 0;
+border: none;
+font-size: 16px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+margin-bottom: 25px;
+transition: border-coler 0.3s ease-in-out;
 }
-.welcome-header__text{
-  
-    opacity: 0.7;
-    font-weight: 400;
+
+#login-form input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
 }
-.welcome-header :nth-child(2){
-    margin-top: 22px;
-   
-}
-.welcome-header :nth-child(3){
-    margin-top: 3px;
-   
+
+#login-form input:focus{
+    border-color: var(--yellow);
 }
