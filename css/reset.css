@@ -50,3 +50,7 @@ table {
 input:focus{
 	outline: none;
 }
+a{
+	color: #2F363E;
+	text-decoration: none;
+}
