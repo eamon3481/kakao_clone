@@ -39,6 +39,14 @@ margin-left: 12px;
     height: 60px;
 }
 
-.friends-screen{
-    padding: 0 var(--horizontal-space)
+.user-component__title--notborder{
+    font-weight: 400;
+}
+.user-component{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-component__column:last-child{
+    color: rgba(0, 0, 0, 0.5);
 }
