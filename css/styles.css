@@ -5,6 +5,7 @@
 @import"component/nav-bar.css";
 @import"component/screen-header.css";
 @import"component/user-component.css";
+@import"component/badge.css";
 /*screens*/
 @import"screens/login-form.css";
 @import"screens/friends.css";
@@ -16,3 +17,6 @@ body{
     height: 100vh;
 }
 
+.main-screen{
+    margin: 0 var(--horizontal-space);
+}
