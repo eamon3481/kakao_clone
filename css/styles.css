@@ -9,12 +9,15 @@
 /*screens*/
 @import"screens/login-form.css";
 @import"screens/friends.css";
+@import"screens/find.css";
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 body{
     font-family:'Open Sans', sans-serif;
-    color: #2F363E;
-    height: 100vh;
+    color: hsl(212, 14%, 21%);
+    height: 135vh;
 }
 
 .main-screen{
