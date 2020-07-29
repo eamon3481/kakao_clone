@@ -1,26 +1,4 @@
-.find-icons{
-display: flex;
-justify-content: space-between;
 
-}
-.find-icons__icon{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.find-icons__icon span{
-    font-size: 16px;
-}
-.find-icons__icon i{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.find-icons__contacts{
-    margin-top: -5px;
-}
 .recommended-friends{
     margin: 25px 0;
     padding: 25px 0px;
@@ -37,6 +15,7 @@ justify-content: space-between;
 
     text-align: center;
 }
+
 .open-chat__header{
     display: flex;
     justify-content: space-between;
@@ -45,38 +24,44 @@ justify-content: space-between;
 .open-chat__header__title{
     opacity: 0.8;
 }
+
 .open-chat__header__gotohome{
     color:var(--gray);
 }
-
-.open-chat__post__colunm{
+.open-chat__post
+{
+    display: flex;
+justify-content: space-between;
+}
+.open-chat__post__column{
     color:var(--gray);
 }
 
-.open-chat__post__colunm__members img{
+
+.open-chat__post__column__members img{
 width: 15px;
 height: 15px;
 border-radius: 50%;
 margin-right:5px ;
 }
-.open-chat__post__colunm__title{
+.open-chat__post__column__title{
 padding-top: 15px;
 font-weight: 600;
 font-size: 18px;
 color:var(--main-fontcolor);
 }
 
-.open-chat__post__colunm__hashtags{
+.open-chat__post__column__hashtags{
     display: block;
     margin: 5px 0;
     font-size: 15px;
 }
-.open-chat__post__colunm__members{
+.open-chat__post__column__members{
     display: flex;
     font-size: 15px;
 }
 
-.open-chat__post__colunm__members .divider{
+.open-chat__post__column__members .divider{
     margin-left: 5px;
     margin-right: 5px;
     width: 1px;
@@ -85,7 +70,31 @@ color:var(--main-fontcolor);
     margin: 0,10px;
 }
 
-.open-chat__post__colunm__members__status{
+.open-chat__post__column__members__status{
    
     color: #fa76c5;
 }
+
+.open-chat__post__photo{
+    position: relative;
+}
+.open-chat__post__photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+.open-chat__post__heart{
+    font-size: 12px;
+    background-color: rgba(0, 0,0, 0.7);
+    position: absolute;
+    padding: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.open-chat__post__heart i{
+margin-right: 5px;
+} 
