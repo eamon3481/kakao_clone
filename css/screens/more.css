@@ -22,3 +22,42 @@ align-items: center;
 .user-component__subtitle .alram i {
     font-size: 10px;
 }
+
+.more-screen .user-component__column:last-child{
+    color:  hsl(212, 14%, 21%);
+}
+
+.more-screen .icon-row{
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+.more-suggestion{
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding: 20px 0px;
+}
+.more-suggestion__title{
+    margin-bottom: 30px;
+}
+.more-suggestion__icon-img{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    color: white;
+    margin-bottom: 20px;
+}
+.more-suggestion__icon{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-suggestion__icons{
+display: flex;
+}

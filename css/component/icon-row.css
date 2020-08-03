@@ -1,6 +1,11 @@
 .icon-row{
     display: flex;
     justify-content: space-between;
+}
+
+.icon-row-second{
+    display: flex;
+    justify-content: flex-start;
     
     }
     .icon-row__icon{
@@ -20,4 +25,7 @@
     
     .icon-row__contacts{
         margin-top: -5px;
+    }
+    .icon-row__icon-second{
+        margin-right: 65px;
     }
