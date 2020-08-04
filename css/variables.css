@@ -1,7 +1,7 @@
 :root{
     --yellow: #FAE100;
     --gray:rgba(0,0,0,0.5);
-    --horizontal-space: 25px;
     --main-fontcolor: hsl(212, 14%, 21%);
+    --horizontal-space: 25px;
     --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
