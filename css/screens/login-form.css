@@ -15,8 +15,8 @@
     opacity: 0.7;
     font-weight: 400;
     margin-top: 3px;
+    line-height: 19px;
     text-align: center;
-    line-height: 18px;
 }
 
 #login-form{
@@ -37,7 +37,7 @@ margin-bottom: 25px;
     transition: border-coler 0.3s ease-in-out;
 }
 #login-form input::placeholder{
-    color: rgba(0, 0, 0, 0.4);
+    color: var(--gray);
 }
 
 #login-form input:focus{
