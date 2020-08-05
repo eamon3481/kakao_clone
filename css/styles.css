@@ -8,6 +8,7 @@
 @import"component/user-component.css";
 @import"component/badge.css";
 @import"component/icon-row.css";
+@import"component/no-mobile.css";
 
 /*screens*/
 @import"screens/login-form.css";
@@ -23,7 +24,7 @@
 body{
     font-family:'Open Sans', sans-serif;
     color: hsl(212, 14%, 21%);
-    height: 135vh;
+    height: 100vh;
 }
 
 .main-screen{
