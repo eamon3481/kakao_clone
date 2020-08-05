@@ -61,3 +61,22 @@ margin-top: 10px;
 .more-suggestion__icons{
 display: flex;
 }
+
+@keyframes heartbeat{
+    0% {
+        transform: none;
+    }
+    50%{
+        transform: scale(1.3);
+        color: tomato;
+    }
+    100%{
+        transform: none;
+        color: white;
+    }
+}
+
+.open-chat__post__photo:hover .open-chat__post__heart .fa-heart{
+    will-change: transform;
+    animation: heartbeat 1s linear infinite;
+}

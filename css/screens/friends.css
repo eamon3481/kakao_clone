@@ -25,3 +25,26 @@
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
 }
+@keyframes hide-splash-screen{
+    from {
+        opacity: 1;
+    }
+    to{ 
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#splash-screen{
+    background-color: var(--yellow);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   z-index: 5;
+    bottom: 0;
+    font-size: 132px;
+    width: 100vw;
+    height: 100vh;
+    animation: hide-splash-screen 0.4s ease-in-out forwards;
+    animation-delay: 2s ;
+}
