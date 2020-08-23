@@ -1,5 +1,6 @@
 .user-component{
     display: flex;
+    margin: 20px 0;
 }
 .user-component, .user-component__column:first-child{
     display: flex;
@@ -14,7 +15,7 @@
 }
 
 .user-component__text{
-margin-left: 12px;
+margin-left: 20px;
 }
 
 .user-component__title{
@@ -23,7 +24,7 @@ margin-left: 12px;
 }
 
 .user-component__subtitle{
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.4);
 }
@@ -40,6 +41,7 @@ margin-left: 12px;
 }
 
 .user-component__title--notborder{
+    font-size: 16px;
     font-weight: 400;
 }
 .user-component{
@@ -59,4 +61,13 @@ margin-left: 12px;
     margin: 10px 0 ;
     font-size: 13px;
     margin-bottom: 5px;
+}
+
+.user-component__avatar__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
 }
